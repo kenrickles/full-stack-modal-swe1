@@ -1,8 +1,8 @@
 module.exports = {
   development: {
-    username: '<YOUR_USERNAME>',
+    username: process.env.USER,
     password: null,
-    database: 'modal_grocery_development',
+    database: 'full_stack_modal_development',
     host: '127.0.0.1',
     dialect: 'postgres',
   },

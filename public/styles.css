@@ -1,0 +1,12 @@
+.description {
+  display: none;
+}
+/* .show {
+  display: block;
+} */
+.modal {
+  background-color: blue;
+  height: 350px;
+  display: block;
+  position: relative;
+}
